@@ -1,0 +1,55 @@
+.page {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0;
+}
+
+.page p {
+  color: #666;
+  margin: 0;
+}
+
+.page a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s;
+}
+
+.page a:hover {
+  background-color: #0056b3;
+}
+
+.placeholder {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  color: #666;
+  line-height: 1.6;
+  font-family: monospace;
+}
+
+.page ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.page li {
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
